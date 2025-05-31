@@ -23,6 +23,11 @@ export default function Comment({ comment }) {
       <div className="comment-text">
         {body}
       </div>
+      <div class="comment-actions">
+        <span>Like</span>
+        <span>Reply</span>
+        <span>Share</span>
+      </div>
     </div>
   )
 }

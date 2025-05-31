@@ -30,3 +30,20 @@
    color: gray;
  }
 
+ .comment-text {
+   font-size: 15px;
+   line-height: 1.4;
+   margin-bottom: 10px;
+ }
+
+ .comment-actions {
+   display: flex;
+   gap: 15px;
+   font-size: 13px;
+   color: #65676b;
+   cursor: pointer;
+ }
+
+ .comment-actions span:hover {
+   text-decoration: underline;
+ }
